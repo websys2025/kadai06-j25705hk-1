@@ -3,7 +3,8 @@
 # 【概要】横浜市内の放射線量を観測した時系列データ（リアルタイム）
 # 【エンドポイント】https://ckan.open-governmentdata.org/api/3/action/datastore_search
 # 【機能】指定されたデータセット（リソースID）から最新の環境放射線データを取得
-
+# 【使い方】
+# - データポータルで対象データの「リソースID」を確認して使用
 import requests
 
 resource_id = 'ceacb273-4c70-44cd-a24d-1fbdc3a99f07'  # 環境放射線のリアルタイムデータ

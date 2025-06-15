@@ -3,7 +3,8 @@
 # 【エンドポイント】https://api.e-stat.go.jp/rest/3.0/app/json/getStatsData
 # 【機能】e-Stat が提供する政府統計 API を使って、完全失業率の時系列データを取得
 # 【使い方】
-# - データポータルで対象データの「リソースID」を確認して使用
+# 1. e-Stat のサイトで「統計表ID（statsDataId）」を調べる
+# 2. APIキーを取得し、下記に記入する
 import requests
 import json
 

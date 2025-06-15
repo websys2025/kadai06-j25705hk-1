@@ -2,7 +2,8 @@
 # 【データの種類】労働力調査（基本集計） - 完全失業率（総数、男女別）
 # 【エンドポイント】https://api.e-stat.go.jp/rest/3.0/app/json/getStatsData
 # 【機能】e-Stat が提供する政府統計 API を使って、完全失業率の時系列データを取得
-
+# 【使い方】
+# - データポータルで対象データの「リソースID」を確認して使用
 import requests
 import json
 
